@@ -1,0 +1,678 @@
+[
+    {
+      "name": "Marina Beach",
+      "place": "Chennai",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "latitude": 13.0475,
+      "longitude": 80.2824,
+      "OBJECTID": 344
+    },
+    {
+      "name": "Juhu Beach",
+      "place": "Mumbai",
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "latitude": 19.0986,
+      "longitude": 72.826,
+      "OBJECTID": 357
+    },
+    {
+      "name": "Baga Beach",
+      "place": "Baga",
+      "state": "Goa",
+      "district": "North Goa",
+      "latitude": 15.5523,
+      "longitude": 73.7517,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Palolem Beach",
+      "place": "Palolem",
+      "state": "Goa",
+      "district": "South Goa",
+      "latitude": 15.0097,
+      "longitude": 74.0234,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Kovalam Beach",
+      "place": "Kovalam",
+      "state": "Kerala",
+      "district": "Thiruvananthapuram",
+      "latitude": 8.4017,
+      "longitude": 76.9784,
+      "OBJECTID": 351
+    },
+    {
+      "name": "Varkala Beach",
+      "place": "Varkala",
+      "state": "Kerala",
+      "district": "Thiruvananthapuram",
+      "latitude": 8.7378,
+      "longitude": 76.7085,
+      "OBJECTID": 351
+    },
+    {
+      "name": "Radhanagar Beach",
+      "place": "Havelock Island",
+      "state": "Andaman and Nicobar Islands",
+      "district": "South Andaman",
+      "latitude": 11.9775,
+      "longitude": 92.9847,
+      "OBJECTID": 1278
+    },
+    {
+      "name": "Calangute Beach",
+      "place": "Calangute",
+      "state": "Goa",
+      "district": "North Goa",
+      "latitude": 15.5443,
+      "longitude": 73.7554,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Puri Beach",
+      "place": "Puri",
+      "state": "Odisha",
+      "district": "Puri",
+      "latitude": 19.7983,
+      "longitude": 85.8245,
+      "OBJECTID": 1047
+    },
+    {
+      "name": "Gopalpur Beach",
+      "place": "Gopalpur",
+      "state": "Odisha",
+      "district": "Ganjam",
+      "latitude": 19.2635,
+      "longitude": 84.9139,
+      "OBJECTID": 342
+    },
+    {
+      "name": "Digha Beach",
+      "place": "Digha",
+      "state": "West Bengal",
+      "district": "Purba Medinipur",
+      "latitude": 21.6266,
+      "longitude": 87.5085,
+      "OBJECTID": 752
+    },
+    {
+      "name": "Ramakrishna Beach",
+      "place": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "latitude": 17.7129,
+      "longitude": 83.3312,
+      "OBJECTID": 297
+    },
+    {
+      "name": "Kaup Beach",
+      "place": "Kaup",
+      "state": "Karnataka",
+      "district": "Udupi",
+      "latitude": 13.2261,
+      "longitude": 74.7373,
+      "OBJECTID": 355
+    },
+    {
+      "name": "Om Beach",
+      "place": "Gokarna",
+      "state": "Karnataka",
+      "district": "Uttara Kannada",
+      "latitude": 14.5176,
+      "longitude": 74.3123,
+      "OBJECTID": 283
+    },
+    {
+      "name": "Paradise Beach",
+      "place": "Puducherry",
+      "state": "Puducherry",
+      "district": "Puducherry",
+      "latitude": 11.8598,
+      "longitude": 79.8301,
+      "OBJECTID": 346
+    },
+    {
+      "name": "Auroville Beach",
+      "place": "Auroville",
+      "state": "Puducherry",
+      "district": "Puducherry",
+      "latitude": 11.9967,
+      "longitude": 79.8575,
+      "OBJECTID": 346
+    },
+    {
+      "name": "Rishikonda Beach",
+      "place": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "latitude": 17.7649,
+      "longitude": 83.3657,
+      "OBJECTID": 297
+    },
+    {
+      "name": "Kanyakumari Beach",
+      "place": "Kanyakumari",
+      "state": "Tamil Nadu",
+      "district": "Kanyakumari",
+      "latitude": 8.078,
+      "longitude": 77.5413,
+      "OBJECTID": 266
+    },
+    {
+      "name": "Murud Beach",
+      "place": "Murud",
+      "state": "Maharashtra",
+      "district": "Raigad",
+      "latitude": 18.3258,
+      "longitude": 72.9654,
+      "OBJECTID": 356
+    },
+    {
+      "name": "Muzhappilangad Beach",
+      "place": "Muzhappilangad",
+      "state": "Kerala",
+      "district": "Kannur",
+      "latitude": 11.8211,
+      "longitude": 75.4353,
+      "OBJECTID": 354
+    },
+    {
+      "name": "Bheemunipatnam Beach",
+      "place": "Bheemunipatnam",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "latitude": 17.8903,
+      "longitude": 83.4522,
+      "OBJECTID": 297
+    },
+    {
+      "name": "Silver Beach",
+      "place": "Cuddalore",
+      "state": "Tamil Nadu",
+      "district": "Cuddalore",
+      "latitude": 11.7371,
+      "longitude": 79.7852,
+      "OBJECTID": 279
+    },
+    {
+      "name": "Ganpatipule Beach",
+      "place": "Ganpatipule",
+      "state": "Maharashtra",
+      "district": "Ratnagiri",
+      "latitude": 17.1415,
+      "longitude": 73.2695,
+      "OBJECTID": 292
+    },
+    {
+      "name": "Kollam Beach",
+      "place": "Kollam",
+      "state": "Kerala",
+      "district": "Kollam",
+      "latitude": 8.8855,
+      "longitude": 76.586,
+      "OBJECTID": 352
+    },
+    {
+      "name": "Mahabalipuram Beach",
+      "place": "Mahabalipuram",
+      "state": "Tamil Nadu",
+      "district": "Kanchipuram",
+      "latitude": 12.6179,
+      "longitude": 80.1953,
+      "OBJECTID": 280      
+    },
+    {
+      "name": "Alappuzha Beach",
+      "place": "Alappuzha",
+      "state": "Kerala",
+      "district": "Alappuzha",
+      "latitude": 9.4917,
+      "longitude": 76.3234,
+      "OBJECTID": 268
+    },
+    {
+      "name": "Tarkarli Beach",
+      "place": "Tarkarli",
+      "state": "Maharashtra",
+      "district": "Sindhudurg",
+      "latitude": 16.0344,
+      "longitude": 73.4896,
+      "OBJECTID": 293
+    },
+    {
+      "name": "Cherai Beach",
+      "place": "Cherai",
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "latitude": 10.1455,
+      "longitude": 76.1761,
+      "OBJECTID": 269
+    },
+    {
+      "name": "Vypin Beach",
+      "place": "Vypin",
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "latitude": 10.0838,
+      "longitude": 76.2333,
+      "OBJECTID": 269
+    },
+    {
+      "name": "Colva Beach",
+      "place": "Colva",
+      "state": "Goa",
+      "district": "South Goa",
+      "latitude": 15.2817,
+      "longitude": 73.922,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Mandarmani Beach",
+      "place": "Mandarmani",
+      "state": "West Bengal",
+      "district": "Purba Medinipur",
+      "latitude": 21.6855,
+      "longitude": 87.692,
+      "OBJECTID": 752
+    },
+    {
+      "name": "Nagoa Beach",
+      "place": "Diu",
+      "state": "Daman and Diu",
+      "district": "Diu",
+      "latitude": 20.7137,
+      "longitude": 70.9042,
+      "OBJECTID": 301
+    },
+    {
+      "name": "Agonda Beach",
+      "place": "Agonda",
+      "state": "Goa",
+      "district": "South Goa",
+      "latitude": 15.0424,
+      "longitude": 74.0229,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Aksa Beach",
+      "place": "Malad",
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "latitude": 19.1675,
+      "longitude": 72.7956,
+      "OBJECTID": 357
+    },
+    {
+      "name": "Kashid Beach",
+      "place": "Kashid",
+      "state": "Maharashtra",
+      "district": "Raigad",
+      "latitude": 18.4522,
+      "longitude": 72.9102,
+      "OBJECTID": 356
+    },
+    {
+      "name": "Maravanthe Beach",
+      "place": "Maravanthe",
+      "state": "Karnataka",
+      "district": "Udupi",
+      "latitude": 13.6322,
+      "longitude": 74.6344,
+      "OBJECTID": 355
+    },
+    {
+      "name": "Ullal Beach",
+      "place": "Ullal",
+      "state": "Karnataka",
+      "district": "Dakshina Kannada",
+      "latitude": 12.8256,
+      "longitude": 74.8673,
+      "OBJECTID": 1307
+    },
+    {
+      "name": "Dona Paula Beach",
+      "place": "Dona Paula",
+      "state": "Goa",
+      "district": "North Goa",
+      "latitude": 15.4669,
+      "longitude": 73.8158,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Anjuna Beach",
+      "place": "Anjuna",
+      "state": "Goa",
+      "district": "North Goa",
+      "latitude": 15.5872,
+      "longitude": 73.7435,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Bekal Beach",
+      "place": "Bekal",
+      "state": "Kerala",
+      "district": "Kasaragod",
+      "latitude": 12.3957,
+      "longitude": 75.0298,
+      "OBJECTID": 277
+    },
+    {
+      "name": "Velsao Beach",
+      "place": "Velsao",
+      "state": "Goa",
+      "district": "South Goa",
+      "latitude": 15.3433,
+      "longitude": 73.8754,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Miramar Beach",
+      "place": "Panjim",
+      "state": "Goa",
+      "district": "North Goa",
+      "latitude": 15.4749,
+      "longitude": 73.8054,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Varca Beach",
+      "place": "Varca",
+      "state": "Goa",
+      "district": "South Goa",
+      "latitude": 15.2098,
+      "longitude": 73.922,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Majorda Beach",
+      "place": "Majorda",
+      "state": "Goa",
+      "district": "South Goa",
+      "latitude": 15.2918,
+      "longitude": 73.9206,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Mandvi Beach",
+      "place": "Mandvi",
+      "state": "Gujarat",
+      "district": "Kachchh",
+      "latitude": 22.8294,
+      "longitude": 69.3524,
+      "OBJECTID": 362
+    },
+    {
+      "name": "Vagator Beach",
+      "place": "Vagator",
+      "state": "Goa",
+      "district": "North Goa",
+      "latitude": 15.6001,
+      "longitude": 73.7337,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Sasihithlu Beach",
+      "place": "Sasihithlu",
+      "state": "Karnataka",
+      "district": "Dakshina Kannada",
+      "latitude": 13.0136,
+      "longitude": 74.7626,
+      "OBJECTID": 1307
+    },
+    {
+      "name": "Payyambalam Beach",
+      "place": "Kannur",
+      "state": "Kerala",
+      "district": "Kannur",
+      "latitude": 11.8833,
+      "longitude": 75.3555,
+      "OBJECTID": 354
+    },
+    {
+      "name": "Ramakrishna Beach",
+      "place": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "latitude": 17.7164,
+      "longitude": 83.3333,
+      "OBJECTID": 297
+    },
+    {
+      "name": "Lighthouse Beach",
+      "place": "Kovalam",
+      "state": "Kerala",
+      "district": "Thiruvananthapuram",
+      "latitude": 8.3994,
+      "longitude": 76.9787,
+      "OBJECTID": 351
+    },
+    {
+      "name": "Vypin Island Beach",
+      "place": "Vypin",
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "latitude": 10.0743,
+      "longitude": 76.2117,
+      "OBJECTID": 269
+    },
+    {
+      "name": "Ganeshgule Beach",
+      "place": "Ratnagiri",
+      "state": "Maharashtra",
+      "district": "Ratnagiri",
+      "latitude": 16.6032,
+      "longitude": 73.3084,
+      "OBJECTID": 292
+    },
+    {
+      "name": "Manori Beach",
+      "place": "Mumbai",
+      "state": "Maharashtra",
+      "district": "Mumbai",
+      "latitude": 19.1974,
+      "longitude": 72.7898,
+      "OBJECTID": 357
+    },
+    {
+      "name": "Nivati Beach",
+      "place": "Nivati",
+      "state": "Maharashtra",
+      "district": "Sindhudurg",
+      "latitude": 16.2244,
+      "longitude": 73.5267,
+      "OBJECTID": 293
+    },
+    {
+      "name": "Shankumugham Beach",
+      "place": "Thiruvananthapuram",
+      "state": "Kerala",
+      "district": "Thiruvananthapuram",
+      "latitude": 8.4773,
+      "longitude": 76.9027,
+      "OBJECTID": 351
+    },
+    {
+      "name": "Kapu Beach",
+      "place": "Kapu",
+      "state": "Karnataka",
+      "district": "Udupi",
+      "latitude": 13.2093,
+      "longitude": 74.7464,
+      "OBJECTID": 355
+    },
+    {
+      "name": "Padubidri Beach",
+      "place": "Padubidri",
+      "state": "Karnataka",
+      "district": "Udupi",
+      "latitude": 13.1348,
+      "longitude": 74.7926,
+      "OBJECTID": 355
+    },
+    {
+      "name": "Gokarna Beach",
+      "place": "Gokarna",
+      "state": "Karnataka",
+      "district": "Uttara Kannada",
+      "latitude": 14.5505,
+      "longitude": 74.3183,
+      "OBJECTID": 283
+    },
+    {
+      "name": "St. Mary's Island",
+      "place": "Malpe",
+      "state": "Karnataka",
+      "district": "Udupi",
+      "latitude": 13.3667,
+      "longitude": 74.6789,
+      "OBJECTID": 355
+    },
+    {
+      "name": "Rushikonda Beach",
+      "place": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "latitude": 17.7602,
+      "longitude": 83.3885,
+      "OBJECTID": 297
+    },
+    {
+      "name": "Dumas Beach",
+      "place": "Surat",
+      "state": "Gujarat",
+      "district": "Surat",
+      "latitude": 21.0716,
+      "longitude": 72.704,
+      "OBJECTID": 302
+    },
+    {
+      "name": "Bakkhali Beach",
+      "place": "Bakkhali",
+      "state": "West Bengal",
+      "district": "South 24 Parganas",
+      "latitude": 21.5643,
+      "longitude": 88.2686,
+      "OBJECTID": 752
+    },
+    {
+      "name": "Elephant Beach",
+      "place": "Havelock Island",
+      "state": "Andaman and Nicobar Islands",
+      "district": "South Andaman",
+      "latitude": 11.9775,
+      "longitude": 92.9847,
+      "OBJECTID": 1278
+    },
+    {
+      "name": "Pondicherry Beach",
+      "place": "Puducherry",
+      "state": "Puducherry",
+      "district": "Puducherry",
+      "latitude": 11.9338,
+      "longitude": 79.8377,
+      "OBJECTID": 346
+    },
+    {
+      "name": "Ramakrishna Beach",
+      "place": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "latitude": 17.7164,
+      "longitude": 83.3333,
+      "OBJECTID": 297
+    },
+    {
+      "name": "Marina Beach",
+      "place": "Chennai",
+      "state": "Tamil Nadu",
+      "district": "Chennai",
+      "latitude": 13.0475,
+      "longitude": 80.2824,
+      "OBJECTID": 344
+    },
+    {
+      "name": "Auroville Beach",
+      "place": "Auroville",
+      "state": "Puducherry",
+      "district": "Puducherry",
+      "latitude": 11.99,
+      "longitude": 79.8575,
+      "OBJECTID": 346
+    },
+    {
+      "name": "Vypin Island Beach",
+      "place": "Vypin",
+      "state": "Kerala",
+      "district": "Ernakulam",
+      "latitude": 10.0724,
+      "longitude": 76.2087,
+      "OBJECTID": 269
+    },
+    {
+      "name": "Varkala Beach",
+      "place": "Varkala",
+      "state": "Kerala",
+      "district": "Thiruvananthapuram",
+      "latitude": 8.7378,
+      "longitude": 76.7085,
+      "OBJECTID": 351
+    },
+    {
+      "name": "Rishikonda Beach",
+      "place": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "district": "Visakhapatnam",
+      "latitude": 17.7649,
+      "longitude": 83.3657,
+      "OBJECTID": 297
+    },
+    {
+      "name": "Calangute Beach",
+      "place": "Calangute",
+      "state": "Goa",
+      "district": "North Goa",
+      "latitude": 15.5443,
+      "longitude": 73.7554,
+      "OBJECTID": 289
+    },
+    {
+      "name": "Kovalam Beach",
+      "place": "Kovalam",
+      "state": "Kerala",
+      "district": "Thiruvananthapuram",
+      "latitude": 8.4017,
+      "longitude": 76.9784,
+      "OBJECTID": 351
+    },
+    {
+      "name": "Chandipur Beach",
+      "place": "Chandipur",
+      "state": "Odisha",
+      "district": "Balasore",
+      "latitude": 21.4753,
+      "longitude": 87.0195,
+      "OBJECTID": 674
+    },
+    {
+      "name": "Mandarmani Beach",
+      "place": "Mandarmani",
+      "state": "West Bengal",
+      "district": "Purba Medinipur",
+      "latitude": 21.6855,
+      "longitude": 87.692,
+      "OBJECTID": 752
+    },
+    {
+      "name": "Digha Beach",
+      "place": "Digha",
+      "state": "West Bengal",
+      "district": "Purba Medinipur",
+      "latitude": 21.6266,
+      "longitude": 87.5085,
+      "OBJECTID": 752
+    }
+  ]
+  
