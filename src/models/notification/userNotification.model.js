@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const usersNotificationSchema = new mongoose.Schema({
+const userNotificationSchema = new mongoose.Schema({
     user: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User"
@@ -21,3 +21,5 @@ const usersNotificationSchema = new mongoose.Schema({
 }, {
     timestamps: true
 });
+
+export const UserNotification = mongoose.model("UserNotification", userNotificationSchema);

@@ -1,5 +1,5 @@
-import { Beach } from "../models/beach.model.js";
-import beachesData from "../constants/beaches.json" assert {type: "json"};
+import { Beach } from "../../models/beach.model.js";
+import beachesData from "../../constants/beaches.json" assert {type: "json"};
 
 export const updateBeaches = async () => {
     try {

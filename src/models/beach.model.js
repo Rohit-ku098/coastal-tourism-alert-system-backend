@@ -17,8 +17,7 @@ const beachSchema = new mongoose.Schema({
         required: true
     },
     OBJECTID: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Alert',
+        type: Number,
     },
     latitude: {
         type: Number,
