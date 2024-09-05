@@ -22,8 +22,10 @@ const notificationSchema = new mongoose.Schema({
         ref: "Beach"
     }
 }, {
-    timestamps: true
+    timestamps: true,
 });
+
+
 
 notificationSchema.post("save", async function (doc) {
     try {
