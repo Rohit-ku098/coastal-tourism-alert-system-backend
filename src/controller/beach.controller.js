@@ -5,47 +5,93 @@ import { ApiError } from '../utils/ApiError.js';
 import { ApiResponse } from '../utils/ApiResponse.js';
 
 export const getBeaches = asyncHandler(async (req, res) => {
+  console.log(req.query)
+    const { query="", limit=15, page=1 } = req.query;  
+
+     const searchWords = query?.split(" ").map((word) => word.trim());
+
+     // Create an array of regex conditions for each field and word
+     const searchConditions = searchWords?.map((word) => ({
+       $or: [
+         { name: { $regex: word, $options: "i" } },
+         { state: { $regex: word, $options: "i" } },
+         { place: { $regex: word, $options: "i" } },
+         { district: { $regex: word, $options: "i" } },
+       ],
+     }));
+
     const beaches = await Beach.aggregate([
       {
-        $lookup: {
-          from: "alerts",
-          localField: "OBJECTID",
-          foreignField: "OBJECTID",
-          as: "beachAlerts",
+        $match: {
+          $and: searchConditions,
         },
       },
       {
-        $addFields: {
-          HWA: {
-            alert: {
-              $first: "$beachAlerts.hwa.alert",
+        $facet: {
+          metadata: [
+            { 
+              $count: "total" 
+            }, 
+            { 
+              $addFields: { 
+                page: Number.parseInt(page),
+                limit: Number.parseInt(limit),
+              } 
+            }
+          ],
+          beaches: [
+            { 
+              $skip: (Number.parseInt(page) - 1) * Number.parseInt(limit) 
             },
-            color: {
-              $first: "$beachAlerts.hwa.color",
+            { 
+              $limit: Number.parseInt(limit) 
             },
-          },
-          SSA: {
-            alert: {
-              $first: "$beachAlerts.ssa.alert",
+            {
+              $lookup: {
+                from: "alerts",
+                localField: "OBJECTID",
+                foreignField: "OBJECTID",
+                as: "beachAlerts",
+              },
             },
-            color: {
-              $first: "$beachAlerts.ssa.color",
+            {
+              $addFields: {
+                HWA: {
+                  alert: {
+                    $first: "$beachAlerts.hwa.alert",
+                  },
+                  color: {
+                    $first: "$beachAlerts.hwa.color",
+                  },
+                },
+                SSA: {
+                  alert: {
+                    $first: "$beachAlerts.ssa.alert",
+                  },
+                  color: {
+                    $first: "$beachAlerts.ssa.color",
+                  },
+                },
+                oceanCurrent: {
+                  alert: {
+                    $first: "$beachAlerts.oceanCurrent.alert",
+                  },
+                  color: {
+                    $first: "$beachAlerts.oceanCurrent.color",
+                  },
+                },
+              },
             },
-          },
-          oceanCurrent: {
-            alert: {
-              $first: "$beachAlerts.oceanCurrent.alert",
+            {
+              $project: {
+                beachAlerts: 0,
+              },
             },
-            color: {
-              $first: "$beachAlerts.oceanCurrent.color",
-            },
-          },
+          ],
         },
       },
       {
-        $project: {
-          beachAlerts: 0,
-        },
+        $unwind: "$metadata",
       }
     ]);
     

@@ -432,15 +432,6 @@
       "OBJECTID": 354
     },
     {
-      "name": "Ramakrishna Beach",
-      "place": "Visakhapatnam",
-      "state": "Andhra Pradesh",
-      "district": "Visakhapatnam",
-      "latitude": 17.7164,
-      "longitude": 83.3333,
-      "OBJECTID": 297
-    },
-    {
       "name": "Lighthouse Beach",
       "place": "Kovalam",
       "state": "Kerala",
@@ -576,78 +567,6 @@
       "OBJECTID": 346
     },
     {
-      "name": "Ramakrishna Beach",
-      "place": "Visakhapatnam",
-      "state": "Andhra Pradesh",
-      "district": "Visakhapatnam",
-      "latitude": 17.7164,
-      "longitude": 83.3333,
-      "OBJECTID": 297
-    },
-    {
-      "name": "Marina Beach",
-      "place": "Chennai",
-      "state": "Tamil Nadu",
-      "district": "Chennai",
-      "latitude": 13.0475,
-      "longitude": 80.2824,
-      "OBJECTID": 344
-    },
-    {
-      "name": "Auroville Beach",
-      "place": "Auroville",
-      "state": "Puducherry",
-      "district": "Puducherry",
-      "latitude": 11.99,
-      "longitude": 79.8575,
-      "OBJECTID": 346
-    },
-    {
-      "name": "Vypin Island Beach",
-      "place": "Vypin",
-      "state": "Kerala",
-      "district": "Ernakulam",
-      "latitude": 10.0724,
-      "longitude": 76.2087,
-      "OBJECTID": 269
-    },
-    {
-      "name": "Varkala Beach",
-      "place": "Varkala",
-      "state": "Kerala",
-      "district": "Thiruvananthapuram",
-      "latitude": 8.7378,
-      "longitude": 76.7085,
-      "OBJECTID": 351
-    },
-    {
-      "name": "Rishikonda Beach",
-      "place": "Visakhapatnam",
-      "state": "Andhra Pradesh",
-      "district": "Visakhapatnam",
-      "latitude": 17.7649,
-      "longitude": 83.3657,
-      "OBJECTID": 297
-    },
-    {
-      "name": "Calangute Beach",
-      "place": "Calangute",
-      "state": "Goa",
-      "district": "North Goa",
-      "latitude": 15.5443,
-      "longitude": 73.7554,
-      "OBJECTID": 289
-    },
-    {
-      "name": "Kovalam Beach",
-      "place": "Kovalam",
-      "state": "Kerala",
-      "district": "Thiruvananthapuram",
-      "latitude": 8.4017,
-      "longitude": 76.9784,
-      "OBJECTID": 351
-    },
-    {
       "name": "Chandipur Beach",
       "place": "Chandipur",
       "state": "Odisha",
@@ -655,24 +574,6 @@
       "latitude": 21.4753,
       "longitude": 87.0195,
       "OBJECTID": 674
-    },
-    {
-      "name": "Mandarmani Beach",
-      "place": "Mandarmani",
-      "state": "West Bengal",
-      "district": "Purba Medinipur",
-      "latitude": 21.6855,
-      "longitude": 87.692,
-      "OBJECTID": 752
-    },
-    {
-      "name": "Digha Beach",
-      "place": "Digha",
-      "state": "West Bengal",
-      "district": "Purba Medinipur",
-      "latitude": 21.6266,
-      "longitude": 87.5085,
-      "OBJECTID": 752
     }
   ]
   

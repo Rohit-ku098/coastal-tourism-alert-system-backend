@@ -6,7 +6,7 @@ export const updateBeaches = async () => {
         beachesData.forEach(async (beach) => {
             await Beach.findOneAndUpdate(
                 {
-                    OBJECTID: beach.OBJECTID,
+                    name: beach.name
                 },
                 beach,
                 { upsert: true }

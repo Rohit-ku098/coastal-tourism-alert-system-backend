@@ -69,7 +69,7 @@ const getBeachesOceanState = asyncHandler(async () => {
             { upsert: true, runValidators: true }
           );
 
-          if(alert && (alert.oceanCurrent.alert === "ALERT" || alert.oceanCurrent.alert === "WARNING")) {
+          if(alert && (alert.oceanCurrent?.alert === "ALERT" || alert.oceanCurrent?.alert === "WARNING")) {
             const beaches = await Beach.find({OBJECTID: alert.OBJECTID});
             beaches.forEach( (beach) => {
               Notification.create({
@@ -111,7 +111,7 @@ const getBeachesOceanState = asyncHandler(async () => {
             { upsert: true, runValidators: true }
           );
 
-          if(alert && (alert.ssa.alert === "ALERT" || alert.ssa.alert === "WARNING")) {
+          if(alert && (alert.ssa?.alert === "ALERT" || alert.ssa?.alert === "WARNING")) {
             const beaches = await Beach.find({OBJECTID: alert.OBJECTID});
             beaches.forEach( (beach) => {
               Notification.create({
@@ -154,7 +154,7 @@ const getBeachesOceanState = asyncHandler(async () => {
             { upsert: true, runValidators: true }
           );
 
-          if(alert && (alert.hwa.alert === "ALERT" || alert.hwa.alert === "WARNING")) {
+          if(alert && (alert.hwa?.alert === "ALERT" || alert.hwa?.alert === "WARNING")) {
             const beaches = await Beach.find({OBJECTID: alert.OBJECTID});
             beaches.forEach( (beach) => {
               Notification.create({
@@ -175,6 +175,7 @@ const getBeachesOceanState = asyncHandler(async () => {
 })
 
 // TODO: uncomment it
-cron.schedule("*/10 * * * * *", () => {
+cron.schedule("* * * * *", () => {
   getBeachesOceanState();
+  console.log(Date.now(), "Check for updates")
 });
