@@ -15,17 +15,18 @@ const notificationSchema = new mongoose.Schema({
     },
     date: {
         type: Date,
-        default: Date.now
+        default: Date.now,
     },
     notificationFor: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "Beach"
     }
 }, {
-    timestamps: true,
+    timestamps: true
 });
 
-
+// expires after 30 days
+notificationSchema.index({ date: 1 }, { expireAfterSeconds: 2592000 });
 
 notificationSchema.post("save", async function (doc) {
     try {

@@ -2,6 +2,8 @@ import { asyncHandler } from "../utils/asyncHandler.js";
 import { ApiError } from "../utils/ApiError.js";
 import { ApiResponse } from "../utils/ApiResponse.js";
 import { UserPreference } from "../models/notification/userPreference.model.js";
+import { User } from "../models/user/user.model.js";
+import { Beach } from "../models/beach.model.js";
 
 export const setUserPreference = asyncHandler(async (req, res) => {
     const user = req.user;

@@ -19,7 +19,11 @@ const userNotificationSchema = new mongoose.Schema({
         default: Date.now
     }
 }, {
-    timestamps: true
+    timestamps: true,
+    expireAfterSeconds: 60
 });
+
+// expires after 30 days
+userNotificationSchema.index({ sentAt: 1 }, { expireAfterSeconds: 2592000 });
 
 export const UserNotification = mongoose.model("UserNotification", userNotificationSchema);
